@@ -48,3 +48,16 @@ You should run these prerequisites on your local machine
   bin/kafka-topics.sh --create --topic sentiment-tweets --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
 
   ```
+* start elasticsearch
+  * for MacOS
+
+  ```sh
+  bin/elasticsearch
+
+  ```
+  * for Windows
+
+  ```sh
+  bin\elasticsearch.bat 
+
+  ```
