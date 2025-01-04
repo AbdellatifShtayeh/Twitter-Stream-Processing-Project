@@ -7,7 +7,7 @@ import org.json4s._
 import org.json4s.jackson.JsonMethods._
 import TweetSchema._
 
-object FinalConsumer {
+object loactionConsumer {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder
       .appName("FinalConsumer")
