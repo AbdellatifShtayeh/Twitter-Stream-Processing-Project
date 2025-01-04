@@ -10,7 +10,8 @@ Twitter Stream Processing Project uses technologies like Apache Spark, Kafka, El
 
 • Apache Spark <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk8KLrz1OYfFRDTNayIdRwdanvCy0_Jk8ajg&s" alt="Icon 1" width="42" height="32"> <br/>
 • Apache Kafka <img src="https://miro.medium.com/v2/resize:fit:1400/1*5V1PnKn68SvmEpXYI-3CPw.png" width="52" height="32"> <br />
-• Elasticsearch <img src="https://www.websolutions.cy/technologies/elasticsearch/logo.svg" width="32" height="32">
+• Elasticsearch <img src="https://www.websolutions.cy/technologies/elasticsearch/logo.svg" width="32" height="32"> <br />
+• Kibana <img src="https://cdn.prod.website-files.com/61bcfa6e82d1a9800fdaddf3/646e6263710e07588ee6c1c2_elastic-kibana-logo-vector.svg" width="32" height="32">
 
 
 
@@ -59,5 +60,11 @@ You should run these prerequisites on your local machine
 
   ```sh
   bin\elasticsearch.bat 
+
+  ```
+* start Kibana
+
+  ```sh
+  ./bin/kibana
 
   ```
